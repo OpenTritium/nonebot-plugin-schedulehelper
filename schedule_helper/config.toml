@@ -1,0 +1,131 @@
+[settings]
+imgkit_path = "/usr/bin/wkhtmltoimage"
+# 上半学期为 true，下半学期为 false
+first_half_semester = "08-29"
+second_half_semester = "02-28"
+# 时间偏移量，设置每节课的上课时长，单位为分钟
+offset = 40
+
+# 时刻集合
+[time_set]
+schedule_1 = 08:40:00
+schedule_2 = 10:30:00
+schedule_3 = 14:00:00
+schedule_4 = 15:40:00
+schedule_5 = 18:20:00
+schedule_6 = 20:00:00
+
+# 课程索引表
+[index]
+
+[index.week_0]
+
+[index.week_0.monday]
+
+[index.week_0.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_0.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_0.tuesday]
+
+[index.week_0.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_0.wednesday]
+
+[index.week_0.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_0.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_0.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_0.thursday]
+
+[index.week_0.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_0.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_0.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_0.friday]
+
+[index.week_0.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_0.saturday]
+
+[index.week_0.sunday]
+
+[index.week_1]
+
+[index.week_1.monday]
+
+[index.week_1.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_1.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_1.tuesday]
+
+[index.week_1.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_1.wednesday]
+
+[index.week_1.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_1.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_1.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_1.thursday]
+
+[index.week_1.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_1.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_1.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_1.friday]
+
+[index.week_1.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_1.saturday]
+
+[index.week_1.sunday]
