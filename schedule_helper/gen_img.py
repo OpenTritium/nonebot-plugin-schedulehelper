@@ -33,7 +33,7 @@ def create_rows(time_tuple: tuple, week_tuple: tuple) -> tuple:
     return tuple(rows)
 
 
-def gen_week_img(order=1) -> bool:
+def gen_week_img(order) -> bool:
     """生成周课程图片
 
     Args:
@@ -53,52 +53,24 @@ def gen_week_img(order=1) -> bool:
     table.append_header_rows(form_header)
     table.append_data_rows(create_rows(time_tuple, week_tuple))
     # 标题样式
-    table.caption.set_style({
-        'font-size': '24px',
-        'background-color': '#131124',
-        'color': '#e2e1e4',
-    })
+    table.caption.set_style({'font-size': '24px', 'background-color': '#131124', 'color': '#e2e1e4', })
     # 表格样式
-    table.set_style({
-        'border-collapse': 'collapse',
-        'word-break': 'keep-all',
-        'white-space': 'nowrap',
-        'font-size': '14px',
-        'color': '#ccccd6',
-        'background-color': '#74759b',
-        'text-align': 'center',
-    })
+    table.set_style(
+        {'border-collapse': 'collapse', 'word-break': 'keep-all', 'white-space': 'nowrap', 'font-size': '14px',
+         'color': '#ccccd6', 'background-color': '#74759b', 'text-align': 'center', })
     # 单元格样式
-    table.set_cell_style({
-        'border-color': '#131124',
-        'border-width': '3px',
-        'border-style': 'solid',
-        'padding': '5px',
-    })
+    table.set_cell_style(
+        {'border-color': '#131124', 'border-width': '3px', 'border-style': 'solid', 'padding': '5px', })
     # 表头样式
-    table.set_header_row_style({
-        'color': '#ccccd6',
-        'background-color': '#302f4b',
-        'font-size': '18px',
-    })
+    table.set_header_row_style({'color': '#ccccd6', 'background-color': '#302f4b', 'font-size': '18px', })
     # 覆盖表头样式
-    table.set_header_cell_style({
-        'padding': '15px',
-    })
+    table.set_header_cell_style({'padding': '15px', })
     for i in range(1, 13):
         if i in (1, 2, 5, 6, 9, 10,):
-            table[i].set_cell_style({
-                'background-color': '#a7a8bd',
-                'color': '#322f3b',
-                'font-weight': 'bold',
-            })
+            table[i].set_cell_style({'background-color': '#a7a8bd', 'color': '#322f3b', 'font-weight': 'bold', })
     html = table.to_html()
     imgkit_path = scheme.settings["imgkit_path"]
-    options = {
-        "encoding": "UTF-8",
-        "quality": "30",
-        "width": "920"
-    }
+    options = {"encoding": "UTF-8", "quality": "30", "width": "960"}
     cache_dir = str(current_dir) + "/tmp"
     # 图片缓存目录不存在时，创建它
     if not path.exists(cache_dir):
@@ -108,3 +80,5 @@ def gen_week_img(order=1) -> bool:
     # 生成图片
     if imgkit.from_string(html, img_path, options=options, config=cfg):
         return True
+    else:
+        return False

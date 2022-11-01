@@ -47,7 +47,7 @@ schedule_6 = 20:00:00
 #周索引为 week_<int> 格式
 
 [index.week_0.monday]
-#日索引，有效值为<monday | tuesday | wednesday | thursday | friday | saturday | sunday>
+#日索引，有效值为 <monday | tuesday | wednesday | thursday | friday | saturday | sunday>
 
 [index.week_0.monday.class_3]
 #课索引为 class_<int> 格式

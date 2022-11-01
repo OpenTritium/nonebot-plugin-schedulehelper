@@ -1,4 +1,5 @@
 [settings]
+group_id = 949619790
 imgkit_path = "/usr/bin/wkhtmltoimage"
 # 上半学期为 true，下半学期为 false
 first_half_semester = "08-29"
@@ -129,3 +130,635 @@ room = "教3-307"
 [index.week_1.saturday]
 
 [index.week_1.sunday]
+
+[index.week_2]
+
+[index.week_2.monday]
+
+[index.week_2.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_2.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_2.tuesday]
+
+[index.week_2.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_2.wednesday]
+
+[index.week_2.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_2.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_2.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_2.thursday]
+
+[index.week_2.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_2.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_2.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_2.friday]
+
+[index.week_2.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_2.saturday]
+
+[index.week_2.sunday]
+
+[index.week_3]
+
+[index.week_3.monday]
+
+[index.week_3.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_3.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_3.tuesday]
+
+[index.week_3.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_3.wednesday]
+
+[index.week_3.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_3.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_3.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_3.thursday]
+
+[index.week_3.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_3.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_3.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_3.friday]
+
+[index.week_3.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_3.saturday]
+
+[index.week_3.sunday]
+
+[index.week_4]
+
+[index.week_4.monday]
+
+[index.week_4.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_4.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_4.tuesday]
+
+[index.week_4.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_4.wednesday]
+
+[index.week_4.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_4.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_4.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_4.thursday]
+
+[index.week_4.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_4.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_4.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_4.friday]
+
+[index.week_4.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_4.saturday]
+
+[index.week_4.sunday]
+
+[index.week_5]
+
+[index.week_5.monday]
+
+[index.week_5.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_5.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_5.tuesday]
+
+[index.week_5.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_5.wednesday]
+
+[index.week_5.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_5.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_5.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_5.thursday]
+
+[index.week_5.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_5.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_5.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_5.friday]
+
+[index.week_5.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_5.saturday]
+
+[index.week_5.sunday]
+
+[index.week_6]
+
+[index.week_6.monday]
+
+[index.week_6.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_6.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_6.tuesday]
+
+[index.week_6.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_6.wednesday]
+
+[index.week_6.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_6.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_6.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_6.thursday]
+
+[index.week_6.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_6.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_6.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_6.friday]
+
+[index.week_6.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_6.saturday]
+
+[index.week_6.sunday]
+
+[index.week_7]
+
+[index.week_7.monday]
+
+[index.week_7.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_7.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_7.tuesday]
+
+[index.week_7.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_7.wednesday]
+
+[index.week_7.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_7.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_7.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_7.thursday]
+
+[index.week_7.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_7.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_7.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_7.friday]
+
+[index.week_7.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_7.saturday]
+
+[index.week_7.sunday]
+
+[index.week_8]
+
+[index.week_8.monday]
+
+[index.week_8.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_8.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_8.tuesday]
+
+[index.week_8.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_8.wednesday]
+
+[index.week_8.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_8.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_8.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_8.thursday]
+
+[index.week_8.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_8.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_8.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_8.friday]
+
+[index.week_8.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_8.saturday]
+
+[index.week_8.sunday]
+
+[index.week_9]
+
+[index.week_9.monday]
+
+[index.week_9.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_9.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_9.tuesday]
+
+[index.week_9.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_9.wednesday]
+
+[index.week_9.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_9.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_9.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_9.thursday]
+
+[index.week_9.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_9.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_9.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_9.friday]
+
+[index.week_9.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_9.saturday]
+
+[index.week_9.saturday.class_1]
+course = "电路分析与模电"
+room = "教1-121"
+
+[index.week_9.saturday.class_2]
+course = "电路分析与模电"
+room = "教1-121"
+
+[index.week_9.sunday]
+
+[index.week_10]
+
+[index.week_10.monday]
+
+[index.week_10.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_10.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_10.tuesday]
+
+[index.week_10.tuesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_10.wednesday]
+
+[index.week_10.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_10.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_10.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_10.thursday]
+
+[index.week_10.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_10.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_10.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_10.friday]
+
+[index.week_10.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_10.saturday]
+
+[index.week_10.saturday.class_1]
+course = "电路分析与模电"
+room = "教1-121"
+
+[index.week_10.saturday.class_2]
+course = "电路分析与模电"
+room = "教1-121"
+
+[index.week_10.sunday]
+
+[index.week_11]
+
+[index.week_11.monday]
+
+[index.week_11.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_11.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_11.tuesday]
+
+[index.week_11.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_11.wednesday]
+
+[index.week_11.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_11.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_11.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_11.thursday]
+
+[index.week_11.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_11.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_11.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_11.friday]
+
+[index.week_11.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_11.saturday]
+
+[index.week_11.sunday]
+
+[index.week_12]
+
+[index.week_12.monday]
+
+[index.week_12.monday.class_3]
+course = "离散数学"
+room = "教1-424"
+
+[index.week_12.monday.class_4]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_12.tuesday]
+
+[index.week_12.monday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-113"
+
+[index.week_12.wednesday]
+
+[index.week_12.wednesday.class_2]
+course = "体育"
+room = "体育场"
+
+[index.week_12.wednesday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-420"
+
+[index.week_12.wednesday.class_5]
+course = "思想道德修养与法律基础"
+room = "教1-307"
+
+[index.week_12.thursday]
+
+[index.week_12.thursday.class_1]
+course = "离散数学"
+room = "教1-407"
+
+[index.week_12.thursday.class_3]
+course = "大学英语"
+room = "教1-525"
+
+[index.week_12.thursday.class_4]
+course = "面向对象的程序设计方法"
+room = "教1-320"
+
+[index.week_12.friday]
+
+[index.week_12.friday.class_1]
+course = "计算机组成原理"
+room = "教3-307"
+
+[index.week_12.saturday]
+
+[index.week_12.sunday]
