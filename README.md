@@ -13,7 +13,7 @@
 - **wkhtmltopdf**（[预编译二进制文件下载](https://wkhtmltopdf.org/downloads.html)）
 - imgkit（上面的 python 中间件）
 - **rtoml** （toml 解析）
-- **html-table** （html生成）
+- **html-table** （html 生成）
 - nonebot （QQ 机器人框架）
 
 ## 插件配置
@@ -47,7 +47,7 @@ schedule_6 = 20:00:00
 #周索引为 week_<int> 格式
 
 [index.week_0.monday]
-#日索引，有效值为<monday|tuesday|wednesday|thursday|friday|saturday|sunday>
+#日索引，有效值为<monday | tuesday | wednesday | thursday | friday | saturday | sunday>
 
 [index.week_0.monday.class_3]
 #课索引为 class_<int> 格式
