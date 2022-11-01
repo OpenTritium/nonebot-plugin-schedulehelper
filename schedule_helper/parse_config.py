@@ -25,7 +25,7 @@ class Parse:
             dict: 指定周数据
         """
         index_str = "week_" + str(order)
-        self.current_week = self.schedule[0][index_str]
+        self.current_week = self.schedule[index_str]
         return self.current_week
 
     def get_day(self, order: int, day: str) -> dict:
