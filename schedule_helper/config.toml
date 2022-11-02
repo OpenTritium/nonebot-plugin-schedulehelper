@@ -1,12 +1,10 @@
 [settings]
 group_id = 949619790
 imgkit_path = "/usr/bin/wkhtmltoimage"
-# 上半学期为 true，下半学期为 false
 first_half_semester = "08-29"
 second_half_semester = "02-28"
 offset = 20
 
-# 时刻集合
 [time_set]
 schedule_1 = 08:40:00
 schedule_2 = 10:30:00
@@ -15,7 +13,6 @@ schedule_4 = 15:40:00
 schedule_5 = 18:20:00
 schedule_6 = 20:00:00
 
-# 课程索引表
 [index]
 
 [index.week_0]
