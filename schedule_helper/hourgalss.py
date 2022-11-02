@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 from os import path
 
 import rtoml
@@ -81,14 +81,15 @@ def course_reflection() -> str:
     Returns:
         str: 课程信息，包括课程名与教室
     """
-    hour = datetime.now().hour
-    minute = datetime.now().minute
-    now_tuple = (hour, minute)
+    delta_time = datetime.now() + timedelta(minutes=scheme.settings["offset"])
+    hour = delta_time.hour
+    minute = delta_time.minute
+    delta_tuple = (hour, minute)
     ring_times = ring_bell()
     course_hour_point = course_minute_point = None
     for moment in ring_times:
-        #  只需要判断小时
-        if moment[0] == now_tuple[0]:
+        # 判断小时
+        if moment[0] == delta_tuple[0]:
             course_hour_point = moment[0]
             course_minute_point = moment[1]
     if course_minute_point < 10:

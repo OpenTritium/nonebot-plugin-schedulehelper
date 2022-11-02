@@ -54,7 +54,7 @@ async def _(bot: Bot, event: GroupMessageEvent, args: Message = CommandArg()):
         await bot.send(event=event, message=msg)
 
 
-@scheduler.scheduled_job('cron', hour=8, minute=0)
+@scheduler.scheduled_job('cron', hour=7, minute=0)
 async def _():
     # 获取当前机器人
     bot = get_bot()
@@ -66,9 +66,15 @@ async def _():
 
 
 #  注册课程提示器，每天需要注册六个
+offset = scheme.settings["offset"]
 for i in range(0, 6):
     hour = moments[i][0]
     minute = moments[i][1]
+    if minute < offset:
+        hour = hour - 1
+        minute = 60 - abs(offset - minute)
+    else:
+        minute = minute - offset
 
 
     @scheduler.scheduled_job('cron', hour=hour, minute=minute)

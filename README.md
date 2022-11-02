@@ -11,10 +11,10 @@
 ## 软件依赖
 
 - **wkhtmltopdf**（[预编译二进制文件下载](https://wkhtmltopdf.org/downloads.html)）
-- imgkit（上面的 python 中间件）
+- **imgkit**（前者的 python 中间件）
 - **rtoml** （toml 解析）
 - **html-table** （html 生成）
-- nonebot （QQ 机器人框架）
+- **nonebot** （QQ 机器人框架）
 
 ## 插件配置
 
@@ -27,8 +27,8 @@ imgkit_path = "/usr/bin/wkhtmltoimage"
 # 上半学期为 true，下半学期为 false
 first_half_semester = "08-29"
 second_half_semester = "02-28"
-# 时间偏移量，设置每节课的上课时长，单位为分钟
-offset = 40
+# 时间偏移量，通知会提前到 <int> 分钟
+offset = 20
 
 [time_set]
 # 因为要遵循 toml 语法，故要精确到时间
