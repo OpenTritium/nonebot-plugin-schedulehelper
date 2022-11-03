@@ -75,7 +75,7 @@ def ring_bell() -> tuple:
     return tuple(time_convert)
 
 
-def course_reflection() -> str:
+def course_reflection() -> bool | str:
     """根据当前时间返回即将开始的课程
 
     Returns:
@@ -92,6 +92,8 @@ def course_reflection() -> str:
         if moment[0] == delta_tuple[0]:
             course_hour_point = moment[0]
             course_minute_point = moment[1]
+    if course_hour_point is None:
+        return False
     if course_minute_point < 10:
         course_minute_point = "0" + str(course_minute_point)
     if course_hour_point < 10:

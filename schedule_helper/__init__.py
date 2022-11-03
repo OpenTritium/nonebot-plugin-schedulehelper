@@ -54,7 +54,7 @@ async def _(bot: Bot, event: GroupMessageEvent, args: Message = CommandArg()):
         await bot.send(event=event, message=msg)
 
 
-@scheduler.scheduled_job('cron', hour=7, minute=0)
+@scheduler.scheduled_job('cron', hour=8, minute=10)
 async def _():
     # 获取当前机器人
     bot = get_bot()
@@ -80,4 +80,5 @@ for i in range(0, 6):
     @scheduler.scheduled_job('cron', hour=hour, minute=minute)
     async def _():
         bot = get_bot()
-        await bot.send_group_msg(group_id=group_id, message=Message(course_reflection()))
+        if msg := course_reflection() is not False:
+            await bot.send_group_msg(group_id=group_id, message=Message(msg))
