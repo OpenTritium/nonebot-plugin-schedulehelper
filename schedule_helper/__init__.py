@@ -80,5 +80,5 @@ for i in range(0, 6):
     @scheduler.scheduled_job('cron', hour=hour, minute=minute)
     async def _():
         bot = get_bot()
-        if msg := course_reflection() is not False:
-            await bot.send_group_msg(group_id=group_id, message=Message(msg))
+        if (msg := course_reflection()) is not False:
+            await bot.send_group_msg(group_id=group_id, message=msg)
