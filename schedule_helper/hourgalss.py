@@ -94,23 +94,24 @@ def course_reflection() -> bool | str:
             course_minute_point = moment[1]
     if course_hour_point is None:
         return False
-    if course_minute_point < 10:
-        course_minute_point = "0" + str(course_minute_point)
-    if course_hour_point < 10:
-        course_hour_point = "0" + str(course_hour_point)
-    formatted_time = f"{course_hour_point}:{course_minute_point}"
-    time_tuple = scheme.get_time_tuple()
-    index_str = ""
-    for i in range(0, 6):
-        time_str = time_tuple[i]
-        if time_str.startswith(formatted_time):
-            index_str = "class_" + str(i + 1)
-    week_order = get_week_order()
-    week_day_index = today_in_week()
-    today_course = scheme.get_day(order=week_order, day=week_day_index)
-    # 初始化课程信息
-    course_info = ""
-    # 获取当前时间点课程
-    if current_course := today_course.get(index_str, None):
-        course_info = str(current_course.get("course")) + "\n" + str(current_course.get("room"))
-    return course_info
+    else:
+        if course_minute_point < 10:
+            course_minute_point = "0" + str(course_minute_point)
+        if course_hour_point < 10:
+            course_hour_point = "0" + str(course_hour_point)
+        formatted_time = f"{course_hour_point}:{course_minute_point}"
+        time_tuple = scheme.get_time_tuple()
+        index_str = ""
+        for i in range(0, 6):
+            time_str = time_tuple[i]
+            if time_str.startswith(formatted_time):
+                index_str = "class_" + str(i + 1)
+        week_order = get_week_order()
+        week_day_index = today_in_week()
+        today_course = scheme.get_day(order=week_order, day=week_day_index)
+        # 初始化课程信息
+        course_info = ""
+        # 获取当前时间点课程
+        if current_course := today_course.get(index_str, None):
+            course_info = str(current_course.get("course")) + "\n" + str(current_course.get("room"))
+        return course_info
