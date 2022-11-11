@@ -14,8 +14,8 @@
 ## 软件依赖
 
 - **wkhtmltopdf**（[预编译二进制文件下载](https://wkhtmltopdf.org/downloads.html)）
-- **nonebot_plugin_apscheduler** （定时插件）
 - **imgkit**（前者的 python 中间件）
+- **nonebot_plugin_apscheduler** （定时插件）
 - **rtoml** （toml 解析）
 - **html-table** （html 生成）
 - **nonebot** （QQ 机器人框架）
