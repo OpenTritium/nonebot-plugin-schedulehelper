@@ -647,6 +647,14 @@ room = "教1-121"
 
 [index.week_10.sunday]
 
+[index.week_10.sunday.class_1]
+course = "电路分析与模电"
+room = "教1-121"
+
+[index.week_10.sunday.class_2]
+course = "电路分析与模电"
+room = "教1-121"
+
 [index.week_11]
 
 [index.week_11.monday]
@@ -661,7 +669,7 @@ room = "教3-307"
 
 [index.week_11.tuesday]
 
-[index.week_11.monday.class_5]
+[index.week_11.tuesday.class_5]
 course = "思想道德修养与法律基础"
 room = "教1-113"
 
@@ -701,59 +709,27 @@ room = "教3-307"
 
 [index.week_11.saturday]
 
+[index.week_11.saturday.class_1]
+course = "电路分析与模电"
+room = "教1-121"
+
+[index.week_11.saturday.class_2]
+course = "电路分析与模电"
+room = "教1-121"
+
 [index.week_11.sunday]
 
 [index.week_12]
 
 [index.week_12.monday]
 
-[index.week_12.monday.class_3]
-course = "离散数学"
-room = "教1-424"
-
-[index.week_12.monday.class_4]
-course = "计算机组成原理"
-room = "教3-307"
-
 [index.week_12.tuesday]
-
-[index.week_12.monday.class_5]
-course = "思想道德修养与法律基础"
-room = "教1-113"
 
 [index.week_12.wednesday]
 
-[index.week_12.wednesday.class_2]
-course = "体育"
-room = "体育场"
-
-[index.week_12.wednesday.class_4]
-course = "面向对象的程序设计方法"
-room = "教1-420"
-
-[index.week_12.wednesday.class_5]
-course = "思想道德修养与法律基础"
-room = "教1-307"
-
 [index.week_12.thursday]
 
-[index.week_12.thursday.class_1]
-course = "离散数学"
-room = "教1-407"
-
-[index.week_12.thursday.class_3]
-course = "大学英语"
-room = "教1-525"
-
-[index.week_12.thursday.class_4]
-course = "面向对象的程序设计方法"
-room = "教1-320"
-
 [index.week_12.friday]
-
-[index.week_12.friday.class_1]
-course = "计算机组成原理"
-room = "教3-307"
 
 [index.week_12.saturday]
 

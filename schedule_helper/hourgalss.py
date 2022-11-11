@@ -88,8 +88,8 @@ def course_reflection() -> bool | str:
     ring_times = ring_bell()
     course_hour_point = course_minute_point = None
     for moment in ring_times:
-        # 判断小时
-        if moment[0] == delta_tuple[0]:
+        # 判断时间
+        if moment[0] == delta_tuple[0] and moment[1] == delta_tuple:
             course_hour_point = moment[0]
             course_minute_point = moment[1]
     if course_hour_point is None:
